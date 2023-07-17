@@ -33,5 +33,5 @@ async def on_voice_state_update(member, before, after):
         
         await member.guild.system_channel.send(f'{member.name} has joined {after.channel.name}!')
 
-
+#welp
 client.run(DS_TOKEN)
