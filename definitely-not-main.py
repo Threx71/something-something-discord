@@ -38,13 +38,7 @@ async def on_message(message):
 
     return
 
-#hacer votacion oculta par echar al woly con keywords, que sume y reste y podamos consultar que tan cerca estamos.
-
-#async def on_voice_state_update(member, before, after):
-    # Check if the member is the specific user and the voice channel is the specific channel
-    #if member.id == 175690952961294336 and after.channel.id == 1117264119939219488:
-        
-        #await member.guild.system_channel.send(f'{member.name} has joined {after.channel.name}!')
+#hacer votacion oculta par kickear del SV a un usuario X con conteo de un keyword, que sume y reste y podamos consultar que tan cerca estamos.
 
 #welp
 client.run(DS_TOKEN)
